@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
+        <link rel="stylesheet" type="text/css" href="css/mediaquery.css">
+        <link rel="stylesheet" type="text/css" href="css/font.css">
+        <link rel="stylesheet" type="text/css"href="css/layout.css">
+        <script src="js/script2.js"></script>
+		<title>French with Benefits - Home</title>
+	</head>
+
+    <body>
+        <header id="topnav">
+            <a href="Home Page.html"><img  class="logo" id="logolink"src="IMG/Logo.svg" alt="logo"/></a>
+            <ul class="nav">
+                <li><a class="active" href="Home Page.html">Home </a></li>
+                <li><a href="Gallery.html">Gallery </a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Subscribe.html">Subscribe</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="menu">
+                <img src="icon/Hamburger.svg" onclick="openMenu()">
+            </div>
+        </header>
+        
+        <div class="menuModal fade" id="menuModal">
+            
+            <ul>
+                <li><a href="Home Page.html">Home </a></li>
+                <li><a href="Gallery.html">Gallery </a></li>
+                <li><a class="active" href="Services.html">Services</a></li>
+                <li><a href="Subscribe.html">Subscribe</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            
+        </div>
+		
+		<div class="intro" id="intro" >
+            
+                <div class="circle">
+                        <img  onclick="closeBtn();textChange()" class="logo" src="IMG/Logo.svg" alt="logo"/>
+                    </div>
+    
+                <video width="100%"  height="auto" autoplay muted loop>
+                    <source onerror="errorFunction()" src="Video/video1.mp4" type="video/mp4">   
+                </video>
+                
+            
+		</div>
+	
+		<div class="hero-image">
+            <div id="overlay">
+                <div id="text">
+                    <div class="fade">
+                        <h1 class="hero-text"">French with <span  id="txt1">friends</span></h1>
+                    </div>
+                </div>
+            </div>
+			
+	    </div>
+
+        <div class="container">
+            <div class="text col-50">
+                <h2>Learn a new language</h2>
+                <p>Come practice your french outside of a classroom. Speak with native speakers,
+                    develop your vocabulary, learn about different cultures, all in a fun environment.
+                     </p>
+                <h3>Don't know any French?</h3>
+                <p>Check out our tutoring sessions</p>
+                <button class="button1" onclick="window.location.href='Services.html#tutoring'">Learn more<span ><img src="icon/arrow.svg"/></span></button>
+                
+            </div>
+
+           
+            <div class="image">
+                <img src="IMG/image1.jpg" alt="image1" />
+            </div>
+        </div>
+
+        <div class="container" id="invert">
+            <div class="text col-5">
+
+                <h2>Meet people who share the same interest</h2>
+                <p>
+                    Meet other french speakers from around the world. People who either speak french already or 
+                    people.
+                    <br><br>
+                    Prepare yourself to travel, build new friendships and expand your world by becoming bilingual, 
+                    even if you feel like you have no talent for languages. Take a new approach, and see how much fun it can be!.
+                    <br><br>
+                    See our Gallery
+                    <p>
+                
+                <button class="button1" onclick="window.location.href='Gallery.html'">Gallery<span ><img src="icon/arrow.svg"/></span></button>
+            </div>
+            <div class="image">
+                <img src="IMG/image9.jpg" alt="image9" />
+            </div>   
+        </div>
+
+        <div class="container">
+
+                <div class="text col-50">
+                    <center><h1>Find us on Social Media</h1> </center>
+
+                    <div class="social col-50">
+                            <img src="icon/Facebook.svg" onclick="window.location.href=' https://facebook.com/TRUSUFrenchwithBenefits/'" alt="facebook" />
+                            <img src="icon/Instagram.svg" onclick="window.location.href=' https://www.instagram.com/trusu_french_with_benefits/'" alt="instagram" />
+                            <img src="icon/Snapchat.svg" onclick="window.location.href=' https://www.snapchat.com/'" alt="snapchat" />
+                            <img src="icon/Twitter.svg" onclick="window.location.href=' https://twitter.com/'" alt="twitter" />
+                        </div>
+                </div>
+    
+                
+            </div>
+
+       
+    </body>
+    
+</html>

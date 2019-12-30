@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%; 
+} 
+body {
+     font-size: 1.4rem; 
+    } 
+
+h1   {
+     font-size: 4.0rem; 
+     color: rgb(20, 20, 20);
+    } 
+
+.nav li {
+
+    font-size:1.8rem;
+}
+
+#text{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2vw;
+}
+
+.subscribe_container input[type=text],select, input[type=email]{
+    font-size: 15px;
+}
+
+.prev, .next {
+    font-size: 18px;
+}
+
+.textTeam{
+    font-size: 15px;
+}
+
+.numbertext{
+    font-size: 12px;
+}
+
+.modal .close {
+    font-size: 28px;
+}
+
+h2{
+    color: rgb(75, 75, 75);
+}
+
+h3{
+    color: rgb(75, 75, 75);
+}
+
+p{
+    color:gray;
+}

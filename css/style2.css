@@ -1,0 +1,666 @@
+
+
+.icon{
+    height: 100px;
+    width: auto;
+    /* display: flex;
+    justify-content: space-around; */
+    /* display: inline; */
+    margin: 50px;
+}
+
+ 
+
+.logo{
+    float: left;
+    border: black;
+    
+    height: auto;
+    width: 100px;
+	
+	fill: tomato;
+    
+}
+
+header{
+    display: flex;
+
+    width:100%;
+    padding: 20px 50px 20px 50px;
+    top:0px;
+    
+	box-sizing: border-box;
+
+    background:rgba(255, 255, 255,0.9);
+    position: fixed;
+    overflow: hidden;
+	
+    z-index: +2;
+	
+    height: 100px;
+    
+    /* box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 3px rgba(0,0,0,.24);*/
+} 
+    
+.menu{
+    display: none;
+    justify-content: flex-end;
+    
+    width: 100%;
+    height: auto;
+}
+
+.menu > img{
+    width: 30px;
+    height: auto;
+}
+/*Menu Modal*/
+.menuModal{
+    display: none;
+    
+    
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.menuModal > ul{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    
+    width: 100%;
+}
+
+.menuModal > ul > li{
+    text-align: center;
+    
+}
+
+.menuModal > ul > li > a{
+    text-decoration: none;
+    display: block;
+    color: tomato;
+    padding: 3%;
+}
+
+/**/
+
+
+.nav{
+    display:flex; 
+    justify-content: flex-end;
+    list-style-type: none;
+    
+    width: 100%;
+  
+}
+
+.nav .logo{
+	align-self: flex-start;
+}
+
+header .logo:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
+
+.nav li a {
+    display: inline;         
+    color: tomato;
+    padding: 20px;
+    
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    font-weight: bold;
+}
+
+.active {
+    color: black;
+    font-weight: bold;
+}
+
+/**/
+.intro{
+    
+	display: block;
+	position: fixed; 
+	z-index: 2; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100vh;
+	overflow: hidden;
+  
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.9); 
+}
+
+.intro > source{
+    min-width: 100%;
+    min-height:100%;
+	height: auto;
+	
+    align-self: center;
+    
+    position: fixed;
+    object-fit: cover;
+}
+
+.intro  .circle{
+    position: fixed;
+	align-content: center;
+	margin:auto;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.circle{
+    display: block;
+    width: 175px;
+    height: 175px;
+    background: rgba(255, 255, 255, 0.6);
+    
+    border-radius: 50%
+}
+
+.circle img{
+    position: relative;
+	align-content: center;
+	margin:auto;
+    top: 50%;
+    left: 50%;
+    
+    color: white;
+    transform: translate(-50%,-40%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+
+.intro > .circle:hover img{
+    width:150px;
+    height: auto;
+    transition: all 0.5s;
+}
+
+/**/
+.hero-image{  
+    /*Image*/
+    background-image: url("../IMG/hero.jpg");
+
+    height: 90vh;
+    width: 100%;
+    /* margin-bottom: 50px; */
+
+    margin-top:100px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+#overlay{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+    z-index: 1;
+}
+
+.hero-text{
+    position: absolute;
+	align-content: center;
+	margin:auto;
+    top: 50%;
+    left: 25%;
+    color: white;
+    /* transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);   */
+  }
+
+  #txt1{
+    display: inline-block;
+    
+}
+
+#txt2{
+    display: none;
+   
+}
+
+#txt3{
+    display: none;
+
+}
+
+
+/*TODO:Container*/
+
+.container{
+    display:flex; 
+	box-sizing: border-box;
+        
+	
+	background-color: white;
+    overflow: auto;
+    
+    flex-flow: row wrap;
+}
+
+b{
+    
+    display: inline-block;
+}
+.img-text h1{
+    padding-left: 4%;
+    padding-top: 15%;
+}
+.container > div{
+    margin: auto;
+    display: inline-block;
+    padding:2%;
+}
+
+.container .text{
+    display: flex;
+    justify-content: left;
+    flex-flow: column; 
+    
+    padding: 2%;
+}
+
+
+.image_container{
+    display: block;
+    min-width: 600px;
+    margin: auto;
+	box-sizing: border-box;
+    /*position: relative;*/
+}
+.image{
+    display: block;
+    margin: auto;
+    padding:0;
+    width: 40%;
+  
+}
+
+.container .image img {
+    max-width:100%;
+    height:auto;
+    margin:0;
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.12), 5px 5px 5px rgba(0,0,0,.24);         
+}
+
+#invert{
+    flex-direction: row-reverse;
+}
+/* 
+
+
+/*Button*/
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Green */
+    padding: 10px;
+    width: 150px;
+    
+  }
+  .button1 > span > img{
+      width: 12px;
+      height: auto;
+  }
+
+  .button1:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+/**/
+
+/*Gallery*/
+.grid-container
+{
+    margin-top:100px;
+        
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
+    grid-template-rows: repeat(auto, 300px);
+
+    padding:10px;
+    
+    
+        
+}
+
+.grid-container > div{
+
+	background-color: grey;
+        
+    padding:0px;
+
+    overflow: hidden;
+}
+
+
+.grid-container > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-container > div:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+
+/*Subscribe*/
+
+.subscribe-background{
+	display: block;
+	
+    background-image: url(../IMG/suscribe.jpg);
+    background-color:grey;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+    
+    margin-top:100px;
+    width: 100%;
+    height: 90vh;
+	
+}
+
+.subscribe_container{
+	float:right;
+	
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+  	padding: 20px;
+	
+	
+    width: 400px;
+    
+    position: absolute;
+    
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    
+	
+	background-color: rgba(225, 225, 225, 0.7);
+}
+
+.subscribe_container input[type=text],select, input[type=email]{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    color: #555;
+    box-sizing: border-box;
+    
+    
+    height: 50px;
+   
+    
+    padding: 10px 0px;
+    position: relative;
+    
+    width: 200px;
+  
+}
+
+
+input :focus {
+    outline-width: 0;
+}
+
+.subscribe_container input[type=submit],input[type=reset]{
+    align-content: center;
+    
+}
+
+
+.subscribe_container form table{
+    margin: auto;
+    align-content: center;
+    padding: 20px;
+    border:black 1px;
+}
+
+.subscribe_container form table > td{
+    margin: 25px;
+    padding:30px;
+}
+
+
+/*about*/
+
+
+/*Slideshow container*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+   
+  height: 75vh;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  overflow: hidden;
+}
+
+
+
+.mySlides img{
+    
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:#bbb;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.textTeam {
+    color: rgb(211, 211, 211);
+    
+    position: absolute;
+    
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    /* text-align: left; */
+        
+	border-radius: 15px;
+  	padding: 20px;
+	width:25%;
+	background-color: rgba(46, 46, 46, 0.808);
+  }
+  
+.textTeam p{
+    color: rgba(221, 221, 221, 0.678);
+}
+  
+.textTeam h2, .textTeam h3{
+    color:rgb(221, 221, 221);
+}
+
+
+
+  
+  
+/*Modal Test*/
+
+.modal{
+  display: none;
+  
+  position: fixed; 
+  z-index: 2; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100vh;
+  
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+
+  overflow: hidden;
+  
+}
+
+.image_holder
+{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    padding-top: 2%;
+    overflow: hidden;
+    
+}
+
+.modal img{
+    
+    margin: auto;
+    position: fixed;
+    width: 70%;
+    height: auto;
+    transform: translate(-50%,-50%);
+	
+	background-color: white;
+    
+}
+
+/* The Close Button */
+.modal .close {
+    display: inline-block;
+    position: absolute;
+    color: #aaa;
+    
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* contact */
+.contact-image{  
+    /*Image*/
+    
+    background-image: url("https://i.postimg.cc/6qczfX0b/wallhaven-166638.jpg");
+
+    height: 60vh;
+    width: 100%;
+
+    margin-top:100px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.contact-image{
+    position: relative;
+    display: block;
+    /* width: 100%; */
+    
+}
+
+.contact-padding h1 {
+    position: absolute;
+    top:50%;
+    right: 5%;
+    
+    color: white;    
+}
+
+.contact{
+    display: flex;
+    flex-shrink: 2;
+}
+
+.social > img{
+    width: 70px;
+}
+
+
+.social
+{
+        
+	display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+
+    margin: auto;
+}
+.social > img{
+    margin: 20px;
+
+}
+
+.social > img:hover{
+    
+    transform: translateY(-25%) scale(1.1);
+    transition: all 0.5s;
+}

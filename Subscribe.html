@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+	
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
+		<link rel="stylesheet" type="text/css" href="css/mediaquery.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css"href="css/layout.css">
+		<script src="js/script2.js"></script>
+		<title>French with Benefits - Suscribe</title>
+	</head>
+
+	<body style="overflow-y:hidden">
+	
+		<header id="topnav">
+			<a href="Home Page.html"><img  class="logo" src="IMG/Logo.svg" alt="logo"/></a>
+			<ul class="nav">
+                <li><a href="Home Page.html">Home</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="Services.html">Services</a></li>
+				<li><a class="active" href="Subscribe.html">Subscribe</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+			</ul>
+            
+            <div class="menu">
+                <img src="icon/Hamburger.svg" onclick="openMenu()">
+            </div>
+        </header>
+        
+        <div class="menuModal fade" id="menuModal">
+            
+            <ul>
+                <li><a href="Home Page.html">Home </a></li>
+                <li><a href="Gallery.html">Gallery </a></li>
+                <li><a class="active" href="Services.html">Services</a></li>
+                <li><a href="Subscribe.html">Subscribe</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            
+        </div>
+
+		<div class="subscribe-background">
+			
+			<div id="overlay">
+				<div class="img-text">
+					<h1 style="color: white;">Stay in touch with us</h1>
+				</div>
+				
+				<div class="subscribe_container">
+					<form action=" " method="POST">
+
+						<input type="text" id="fname" name="firstname" placeholder="First Name" required></br>
+						<input type="text" id="lname" name="lastname" placeholder="Last Name" required></br>
+						<input type="text" id="pnumber" name="phonenumber" placeholder="Phone Number (Optional)"></br>
+						<input type="email" id="email" name="email" placeholder="Email" required></br>
+						<input type="email" id="cemail" name="cemail" placeholder="Confirm Email" required></br>
+						<select id="proefficiency" name="Proefficiency" required>
+							<option value="" disabled>Proefficiency</option>
+							<option value="None">None</option>
+							<option value="beginner">Beginner</option>
+							<option value="intermediate">Intermediate</option>
+							<option value="fluent">Fluent</option>
+						</select></br>
+
+						<select id="occupation" name="occupation" required>
+							<option value="" disabled>Occupation</option>
+							<option value="student">Student</option>
+							<option value="staff">Staff</option>
+							<option value="other">Other</option>
+						</select></br>
+
+
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+
+					</form>
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		
+    </body>
+</html>
+
