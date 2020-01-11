@@ -270,7 +270,7 @@ b{
 .container > div{
     margin: auto;
     display: inline-block;
-    padding:2%;
+    padding:1%;
 }
 
 .container .text{
@@ -278,7 +278,7 @@ b{
     justify-content: left;
     flex-flow: column; 
     
-    padding: 2%;
+    padding: 4%;
 }
 
 
