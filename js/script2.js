@@ -15,8 +15,6 @@ var currentScrollPos = window.pageYOffset;
 
 //End Nav Bar Collapse
 
-
-
 function closeBtn(){
   console.log("Hello");
   document.getElementById("intro").style.display = "none";
