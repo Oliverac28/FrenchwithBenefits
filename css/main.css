@@ -270,7 +270,7 @@ b{
 .container > div{
     margin: auto;
     display: inline-block;
-    padding:1%;
+    padding:2%;
 }
 
 .container .text{
@@ -663,4 +663,11 @@ input :focus {
     
     transform: translateY(-25%) scale(1.1);
     transition: all 0.5s;
+}
+
+
+/* font location */
+#subtitle
+{
+    margin-left: 3%;
 }
