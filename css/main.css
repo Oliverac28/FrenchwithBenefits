@@ -650,9 +650,8 @@ input :focus {
         
 	display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 30%;
-
-    margin-top: 17%;
+    grid-gap: 5%;
+    margin: auto;
 }
 .social > img{
     margin: 13px;
