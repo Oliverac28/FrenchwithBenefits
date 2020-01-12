@@ -55,7 +55,9 @@ html, body{
 }
 
 .col-50{
-    padding: 5%;
+    padding-top: 0;
+    padding-left: 9%;
+    
     
 }
 

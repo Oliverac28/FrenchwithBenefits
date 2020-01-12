@@ -641,7 +641,7 @@ input :focus {
 }
 
 .social > img{
-    width: 70px;
+    width: 90px;
 }
 
 
@@ -650,12 +650,12 @@ input :focus {
         
 	display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 5%;
+    grid-gap: 30%;
 
-    margin: auto;
+    margin-top: 17%;
 }
 .social > img{
-    margin: 20px;
+    margin: 13px;
 
 }
 
